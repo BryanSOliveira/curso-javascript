@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            font: 18pt Arial;
+            background-color: aqua;
+            text-align: center;
+        }
+        input {
+            font: 18pt Arial;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vivendo em</h1>
+    <input type="text" name="pais" id="pais">
+    <p>
+        <input type="button" value="Processar" onclick="nac()">
+    </p>
+    <div id=saida>
+
+    </div>
+    <img src="file:///C:/Users/spbry/Documents/Curso%20JS/Preced%C3%AAncia.png" alt="Desisto.">
+    <script>
+        function nac() {
+            var pais = document.all("pais").value
+            var saida = document.all("saida")
+            saida.innerHTML = `<p>País: <strong>${pais}</strong>.</p>`
+            if (pais == "Brasil") {
+                saida.innerHTML += `<p>Brasileiro!</p>`
+            } else {
+                saida.innerHTML += `<p>Estrangeiro!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
