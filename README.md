@@ -1,10 +1,10 @@
-# Javascript - Curso em Vídeo 💻
+# 💻 Javascript - Curso em Vídeo 
 
 O Curso em Vídeo é um canal do youtube que realizou esse curso patrocinado pela <i>Google</i>. Onde eu pude ter as primeiras experiências.
 
 
 
-## Módulos abordados
+## 📋 Módulos abordados
 
 ### Comandos Básicos
 
